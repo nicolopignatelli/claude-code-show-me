@@ -1,6 +1,6 @@
 ---
 name: show-me
-description: Explain with a picture inline in the conversation instead of asking the person to open something. Use whenever a picture would make your point faster than prose - quoting part of a screen or screenshot, comparing two states, magnifying a detail, walking through a flow, drawing a structure or data flow, proposing a change on a real screen, laying out many variants side by side, or showing the shape of a few numbers. You compose the picture as HTML or SVG and the show tool draws it in the terminal.
+description: Explain with a picture inline in the conversation, right where the person is reading. Use it when the person asks you to show, draw, compare, point out or chart something, and whenever a picture would make your point faster than prose - quoting part of a screen or screenshot, comparing two states, magnifying a detail, walking through a flow, drawing a structure or data flow, proposing a change on a real screen, laying out many variants side by side, or showing the shape of a few numbers. You compose the picture as HTML or SVG and the show tool draws it in the conversation, next to your words.
 ---
 
 # Showing things with pictures
