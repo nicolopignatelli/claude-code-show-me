@@ -1,0 +1,17 @@
+{
+  "name": "claude-code-show-me",
+  "owner": {
+    "name": "Nicolò Pignatelli",
+    "url": "https://github.com/nicolopignatelli"
+  },
+  "metadata": {
+    "description": "The show-me mod for Claude Code: Claude explains with pictures inline in the conversation."
+  },
+  "plugins": [
+    {
+      "name": "show-me",
+      "source": "./",
+      "description": "Lets Claude explain with pictures inline in the conversation: quotes of a screen, comparisons, diagrams, charts, composed as HTML or SVG and drawn in the terminal."
+    }
+  ]
+}
