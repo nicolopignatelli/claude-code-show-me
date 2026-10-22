@@ -10,6 +10,39 @@ browser or an image viewer to follow along.
 The pictures are not screenshots passed along. Claude writes each one as HTML or SVG,
 in whatever form serves the point, and the mod renders it and draws it in your terminal.
 
+![Claude draws how a password reset works, with lanes for the browser, the app server, the email service and the database](examples/diagram.png)
+
+## Examples
+
+Four pictures Claude made with the mod, each as it appears in the conversation, its
+caption underneath.
+
+**Quote**: you ask what looks off on a sign-up form, and Claude shows you rather than
+describes it.
+
+![The sign-up form's button, spotlit, with a label saying its text is cut off](examples/quote.png)
+
+*Quote: the sign-up button is too narrow for its label*
+
+**Zoom**: a misalignment too small to see at the form's real size, magnified beside it.
+
+![The form, with the email field's right edge magnified three times next to it](examples/zoom.png)
+
+*Zoom: a 34-px misalignment you would not see at the form's real size*
+
+**Diagram**: drawn from nothing, when there is no screen to show. (It is the picture at
+the top of this page.)
+
+*Diagram: in a password reset the token travels in the link; the database only ever holds its hash*
+
+**Chart**: a few numbers, when their shape is the point.
+
+![Weekly sign-ups: about 42 a week, a launch spike of 118, then about 72 a week](examples/chart.png)
+
+*Chart: after the launch spike, sign-ups settle well above where they started (illustrative data)*
+
+The sign-up form is a made-up page, and the chart's numbers are made up too.
+
 ## Install
 
 At the prompt of a Claude Code terminal session:

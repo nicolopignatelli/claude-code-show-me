@@ -24,6 +24,10 @@ difference between two screens (Compare) or the detail is too small to see in pl
 | Underline | a line or a word of text |
 | Arrow + label | the target is small or the label must sit away from it |
 
+A label is accent text with a thin white halo on a light, calm background; over a
+spotlight's dimmed area or a busy screenshot it sits on a small white pill instead, which
+reads cleanly where a halo looks heavy.
+
 Combine at most two (a spotlight with a label, an outline with an arrow). Put the label
 where it covers nothing the person needs: in empty space beside the target, or outside
 the crop's busy side.
@@ -75,7 +79,13 @@ a label of `18 × k`, a halo of `2 × k` on each side.
   <line class="mark" x1="AX" y1="AY" x2="BX" y2="BY" stroke-width="3k" marker-end="url(#head)"/>
 
   <!-- Label: words, beside the target. -->
-  <text class="label" x="LX" y="LY" font-size="18k" stroke-width="5k">The total drops below the fold</text>
+  <text class="label" x="LX" y="LY" font-size="18k" stroke-width="4k">The total drops below the fold</text>
+
+  <!-- Or, over a dimmed or busy area: the label on a pill (no halo). -->
+  <rect x="PX" y="PY" width="PW" height="44k" rx="22k" fill="#FFFFFF"/>
+  <text x="PX+PW/2" y="PY+29k" text-anchor="middle" font-size="20k"
+        font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+        font-weight="600" fill="#E5484D">The total drops below the fold</text>
 </svg>
 ```
 
